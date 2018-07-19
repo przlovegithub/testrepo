@@ -18,3 +18,10 @@ git push origin -d branchName
 
 如果修改本地的某个文件或是删除文件，想还原的话
 git checkout -- path/filename
+
+###
+
+删除本地分支的某个文件或是某个文件夹
+rm rf filename or foldername
+git add filename or foldername
+git commit -m ''
