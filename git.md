@@ -13,3 +13,8 @@ step2:git reset --hard commitId
 
 删除远程分支
 git push origin -d branchName
+
+###
+
+如果修改本地的某个文件或是删除文件，想还原的话
+git checkout -- path/filename
